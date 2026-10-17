@@ -70,6 +70,10 @@ export default function About({ onNavigate }: { onNavigate: (page: 'contact') =>
               <span className="timeline-year">2025年12月</span>
               <span>登録者5000人</span>
             </li>
+            <li>
+              <span className="timeline-year">2026年09月</span>
+              <span>登録者7000人</span>
+            </li>
           </ul>
           <div className="about-cta">
             <button className="btn btn-primary" onClick={() => onNavigate('contact')}>
